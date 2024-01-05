@@ -77,7 +77,7 @@ const getTotalQuantity = () => {
   }, []);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light py-2">
+    <nav className="navbar navbar-expand-lg sticky-top navbar-light bg-light py-2">
       <div className="container-fluid">
         <Link className="navbar-brand d-lg-none" to="/">
           SHOPLANE
@@ -188,10 +188,9 @@ const getTotalQuantity = () => {
               </li>) : <div></div> }
             </ul>
           </div>
-
-          <div className="d-block w-100">
-            <hr className="my-2" />
-            <ul className="navbar-nav d-flex justify-content-center align-items-center pt-3">
+          <div className="d-block w-100 pt-2">
+          <hr className="my-2" />
+            <ul className="navbar-nav d-flex justify-content-center align-items-center">
               <li className="nav-item mx-2">
                 <Link to={"/products"} className="nav-link">
                   All
@@ -230,7 +229,7 @@ const getTotalQuantity = () => {
                 </Link>
               </li>
             </ul>
-            <hr className="my-0" />
+          <hr className="my-0" />
           </div>
         </div>
       </div>
