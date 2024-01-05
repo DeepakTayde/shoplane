@@ -74,6 +74,9 @@ const CartPage = () => {
             <SummeryCard />
 
             <div className=" mt-3">
+            <button className="btn btn-warning btn-block text-center">
+            Buy Now
+        </button>
               <button
                 onClick={() => dispatch(emptyCart())}
                 className="btn btn-block btn-danger text-center"
