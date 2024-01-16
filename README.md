@@ -79,6 +79,11 @@ The application provides a user-friendly interface for shopping. Key functionali
 |-- README.md
 |-- ...
 ```
+
+![diagram-export-1-16-2024-4_06_06-PM](https://github.com/DeepakTayde/shoplane/assets/108435183/c8635ea5-4cec-47ea-9f96-3583e0523f84)
+![diagram-export-1-16-2024-4_05_37-PM](https://github.com/DeepakTayde/shoplane/assets/108435183/0de4db7e-7c6b-4623-b989-e78a5533a660)
+
+
 ## Technologies Used
 - **React:** A JavaScript library for building user interfaces.
 - **Bootstrap:** A popular CSS framework for responsive and mobile-first front-end development.
